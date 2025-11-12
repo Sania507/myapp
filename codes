@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to My Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f4f4f4; 
+            margin: 0; 
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 60px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-radius: 8px;
+        }
+        h1 { color: #222; }
+        p { color: #444; }
+        a.button {
+            display: inline-block;
+            padding: 10px 24px;
+            background: #1976d2;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        a.button:hover {
+            background: #145ca1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is the index page. You can start building your site by adding more content here.</p>
+        <a href="#" class="button">Learn More</a>
+    </div>
+</body>
+</html>
